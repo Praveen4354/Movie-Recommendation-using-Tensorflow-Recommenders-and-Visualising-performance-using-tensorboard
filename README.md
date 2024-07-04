@@ -26,3 +26,57 @@ To run the notebook, you'll need to have Python installed along with several pac
 
 ```sh
 pip install tensorflow tensorflow-recommenders tensorboard
+
+## Usage
+
+### Clone the repository:
+
+```sh
+git clone https://github.com/your-username/Movie-Recommendation-using-Tensorflow-Recommenders-and-Visualising-performance-using-tensorboard.git
+cd Movie-Recommendation-using-Tensorflow-Recommenders-and-Visualising-performance-using-tensorboard
+
+### Open the Jupyter Notebook:
+
+- **Locally**: Run Jupyter Notebook:
+  ```sh
+  jupyter notebook
+
+- **Open in Google Colab**:
+  - Upload the notebook to Google Colab.
+  
+- **Run the Notebook**:
+  - Follow the notebook instructions to load data, build models, train them, and visualize results.
+
+## Notebook Structure
+
+### Loading Data
+
+- Load the MovieLens dataset.
+- Prepare the data for modeling.
+
+### Building Models
+
+- Define user and movie models with different configurations.
+- Create a TFRS model for each configuration.
+
+### Training Models
+
+- Compile models with appropriate optimizers and loss functions.
+- Train models and log results using TensorBoard.
+
+### Evaluating Models
+
+- Set up retrieval using brute-force search with trained representations.
+- Evaluate and compare model performance.
+
+### Visualizing Results
+
+- Visualize training metrics and compare models using TensorBoard.
+
+## Conclusion
+
+This notebook demonstrates building and comparing movie recommendation models using TensorFlow Recommenders. It illustrates effective use of TensorBoard for visualizing training and comparing model performance.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
