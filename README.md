@@ -25,7 +25,8 @@ This repository includes:
 To run the notebook, you'll need to have Python installed along with several packages. You can install the necessary packages using pip:
 
 ```sh
-pip install tensorflow tensorflow-recommenders tensorboard'''
+pip install tensorflow tensorflow-recommenders tensorboard
+```
 
 ## Usage
 
@@ -34,13 +35,14 @@ pip install tensorflow tensorflow-recommenders tensorboard'''
 ```sh
 git clone https://github.com/your-username/Movie-Recommendation-using-Tensorflow-Recommenders-and-Visualising-performance-using-tensorboard.git
 cd Movie-Recommendation-using-Tensorflow-Recommenders-and-Visualising-performance-using-tensorboard
+```
 
 ### Open the Jupyter Notebook:
 
 - **Locally**: Run Jupyter Notebook:
   ```sh
   jupyter notebook
-
+  ```
 - **Open in Google Colab**:
   - Upload the notebook to Google Colab.
   
