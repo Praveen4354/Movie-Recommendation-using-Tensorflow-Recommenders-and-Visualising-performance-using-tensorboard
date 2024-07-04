@@ -25,7 +25,7 @@ This repository includes:
 To run the notebook, you'll need to have Python installed along with several packages. You can install the necessary packages using pip:
 
 ```sh
-pip install tensorflow tensorflow-recommenders tensorboard
+pip install tensorflow tensorflow-recommenders tensorboard'''
 
 ## Usage
 
